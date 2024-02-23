@@ -51,9 +51,12 @@ namespace Lessons.III.MetaGame.Lesson_RealtimeReward
         private float CalculateOfflineTime(string saveKey)
         {
             var savedTime = PlayerPrefs.GetString(saveKey);
-            
-            if(string.IsNullOrEmpty(savedTime))
+
+            if (string.IsNullOrEmpty(savedTime))
+            {
                 savedTime = DateTime.Now.ToString(CultureInfo.InvariantCulture);
+                PlayerPrefs.SetString(saveKey, savedTime);
+            }
             
             var time = DateTime.Parse(savedTime, CultureInfo.InvariantCulture);
 

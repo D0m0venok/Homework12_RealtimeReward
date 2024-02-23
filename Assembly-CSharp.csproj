@@ -51,20 +51,20 @@
      <Compile Include="Assets\Scripts\Time\MonoBehaviours\MonoTimer.cs" />
      <Compile Include="Assets\Scripts\Realtime\TimeRewardSaveLoader.cs" />
      <Compile Include="Assets\Scripts\Configs\TimeRewardConfig.cs" />
+     <Compile Include="Assets\Scripts\Storages\StorageProvider.cs" />
      <Compile Include="Assets\Scripts\Time\Base\Countdown.cs" />
      <Compile Include="Assets\Scripts\Time\ICountdown.cs" />
+     <Compile Include="Assets\Scripts\Storages\CurrencyType.cs" />
      <Compile Include="Assets\Scripts\Storages\CurrencyStorage.cs" />
+     <Compile Include="Assets\Scripts\IGameStart.cs" />
      <Compile Include="Assets\Scripts\Realtime\IRealtimeTimer.cs" />
      <Compile Include="Assets\Scripts\Time\MonoBehaviours\MonoPeriod.cs" />
      <Compile Include="Assets\Scripts\Time\Base\Timer.cs" />
      <Compile Include="Assets\Scripts\Realtime\TimeRewardModule.cs" />
+     <Compile Include="Assets\Scripts\Realtime\RewardData.cs" />
      <Compile Include="Assets\Scripts\Time\IStopwatch.cs" />
      <Compile Include="Assets\Scripts\Time\MonoBehaviours\MonoCountdown.cs" />
      <Compile Include="Assets\Scripts\Time\Base\Period.cs" />
-     <Compile Include="Assets\Scripts\IGameStart.cs" />
-     <Compile Include="Assets\Scripts\Storages\StorageProvider.cs" />
-     <Compile Include="Assets\Scripts\Realtime\RewardData.cs" />
-     <Compile Include="Assets\Scripts\Storages\CurrencyType.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
